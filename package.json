@@ -1,16 +1,26 @@
 {
   "name": "clone_amazon",
-  "type": "module", 
+  "type": "module",
   "version": "1.0.0",
   "description": "Clone_Amazon .",
   "main": "index.js",
   "dependencies": {
-    "-": "^0.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "force": "^0.0.3"
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +32,9 @@
   "bugs": {
     "url": "https://github.com/LeandroSilvaLara/Clone_Amazon/issues"
   },
-  "homepage": "https://github.com/LeandroSilvaLara/Clone_Amazon#readme"
+  "homepage": "https://github.com/LeandroSilvaLara/Clone_Amazon#readme",
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
 }
