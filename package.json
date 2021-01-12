@@ -1,0 +1,26 @@
+{
+  "name": "clone_amazon",
+  "type": "module", 
+  "version": "1.0.0",
+  "description": "Clone_Amazon .",
+  "main": "index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "express": "^4.17.1",
+    "force": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroSilvaLara/Clone_Amazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroSilvaLara/Clone_Amazon/issues"
+  },
+  "homepage": "https://github.com/LeandroSilvaLara/Clone_Amazon#readme"
+}
